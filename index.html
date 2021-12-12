@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shop & Ship</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="home , house , sale , rent" />
+    <meta name="description" content="Acheter de jeux de notre grande sélection. Jouer à la demande." />
+    <meta name="author" content="IronSteel007" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="media/images/icone.ico" />
+</head>
+<main>
+
+    <body>
+        <header>
+
+            <div class="logo">
+                <img src="media/images/logo.png" alt="c'est un logo">
+            </div>
+            <h1>Best Place To Sale Your Next Sweet Home</h1>
+        </header>
+
+        <div class="container">
+            <form class="form_container" action="">
+                <div class="form_items">
+                    <label for="Type">Type de propriété</label>
+                    <select name="propriete" id="">
+                            <option value="Appartement_Maison">Appartement ou Maison</option>
+                            <option value="Bien_d'exception">Bien d'exception</option>
+                            <option value="Bureaux_Commerces">Bureaux & Commerces</option>
+                            <option value="Magasin">Magasin</option>
+                            <option value="Terrain">Terrain</option>
+                        </select>
+                </div>
+                <div class="form_items">
+                    <label for="nbrChambre">Nombre des chambres</label>
+                    <input type="number" name="nbrChambre" id="" min=0 value="1">
+                </div>
+                <div class="form_items">
+                    <label for="prix">Prix</label>
+
+                    <input type="number" name="min" id="" min=0 value="0">
+
+                    <label for="to">to</label>
+
+                    <input type="number" name="max" id="" min=0 value="0">
+                </div>
+        </div>
+        <div class="form_items">
+            <label for="rayon">Rayon de recherche</label>
+            <input type="range" name="range" min="1" max="600" value="50">
+        </div>
+        <div class="form_items-checkbox">
+            <input type="checkbox" name="vendues" id="">
+            <label for="vendues">Propriété vendues</label>
+        </div>
+        <div class="form_items">
+            <input class="rech" type="submit" value="Rechercher">
+        </div>
+
+        </form>
+        </div>
+
+
+
+
+
+
+    </body>
+</main>
+
+</html>

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 1;
+    font-family: Arial;
+}
+
+body {
+    background-image: url('media/images/background_mobile.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: center
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-left: 15px;
+    color: whitesmoke;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_items label {
+    font-size: 18px;
+    margin: 4px;
+    padding-bottom: 5px;
+}
+
+.form_items input {
+    cursor: default;
+    background-color: white;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.form_items select {
+    cursor: default;
+    background-color: rgba(192, 192, 192, 0.664);
+    padding: 7px;
+}
+
+.prix {
+    display: flex;
+}
+
+.to {
+    display: flex;
+}
+
+.form_items input[type=submit] {
+    color: rgb(255, 255, 255);
+    background-color: #3ae2d4;
+    font-weight: bold;
+}
+
+.prix-min-max {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prix-min-max input {
+    width: 30%;
+}
+
+.form_items-checkbox {
+    display: flex;
+}
+
+.form_items-checkbox input {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 40px;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.form_items-checkbox label {
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+.rech {
+    foreground color: #ffffff;
+    background color: #95d1cc;
+    font size: 12.0pt (16px;
+    font weight: bold;
+}
+
+main {
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        background-image: url('media/images/background.jpg');
+    }
+    header {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    h1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    main {
+        margin-top: 2.5%;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: var(--blue);
+        box-shadow: 10px 5px 5px var(--blueTwo);
+    }
+    .logo {
+        width: 40%;
+    }
+    .line {
+        display: none;
+    }
+    .container {
+        margin-top: 2.5%;
+    }
+    h1 {
+        display: flex;
+        margin-left: 60px;
+    }
+}
+
+
+}
