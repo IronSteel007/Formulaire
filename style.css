@@ -2,12 +2,13 @@
     margin: 0;
     padding: 1;
     font-family: Arial;
+    box-sizing: border-box;
 }
 
 body {
     background-image: url('media/images/background_mobile.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: center;
     background-size: cover;
 }
 
@@ -82,8 +83,8 @@ h1 {
 }
 
 .form_items input[type=submit] {
-    color: rgb(255, 255, 255);
     background-color: #3ae2d4;
+    font-size: 12.0pt (16px);
     font-weight: bold;
 }
 
@@ -111,60 +112,35 @@ h1 {
 }
 
 .form_items-checkbox label {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
     margin-right: 40px;
     font-size: 18px;
 }
 
 .rech {
-    foreground color: #ffffff;
-    background color: #95d1cc;
-    font size: 12.0pt (16px;
-    font weight: bold;
-}
-
-main {
-    padding-bottom: 40px;
+    background-color: #3ae2d4;
+    font-size: 12.0pt (16px);
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 601px) {
     body {
-        background-image: url('media/images/background.jpg');
+        background-image: url('media/images/background1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
     }
-    header {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-    }
-    h1 {
+    .form_items-checkbox {
         display: flex;
         align-items: center;
-        flex-direction: column;
-    }
-    main {
-        margin-top: 2.5%;
-        width: 80%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
         justify-content: center;
-        background-color: var(--blue);
-        box-shadow: 10px 5px 5px var(--blueTwo);
     }
-    .logo {
-        width: 40%;
+    .form_items-checkbox {
+        margin-left: 45%;
+        margin-right: 13px;
+        margin-top: 20px;
+        height: 30px;
+        width: 28px;
     }
-    .line {
-        display: none;
-    }
-    .container {
-        margin-top: 2.5%;
-    }
-    h1 {
-        display: flex;
-        margin-left: 60px;
-    }
-}
-
-
 }
